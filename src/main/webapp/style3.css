@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body{
+    background: #fff; 
+    background: -webkit-linear-gradient(to right, #fff, #fff); 
+    background: linear-gradient(to right, #fff, #fff);
+  }
+  .cont{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+
+  }
+  .card1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    height:300px;
+    width:25%;
+    color:#ffff;
+    background-color:#000 ;
+    border-radius: 8px; 
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  .card1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+  }
+  .fa{
+      padding:10px 0;
+      color: #F5B041;
+  }
+  .p1{
+      position: relative;
+      color:#fff;
+      padding:5px 30px;
+      font-size:14px;
+      background-color:#F5B041;
+      border-radius: 6px;
+  }
+  .u1{
+      color:black;
+      padding:5px;
+      text-align: center;
+      font-size: 30px;
+  }
+.credit a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+  }
+  
+  .credit {
+      text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+  }
+
